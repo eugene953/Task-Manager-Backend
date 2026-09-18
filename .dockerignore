@@ -1,0 +1,27 @@
+# Build targets
+target/
+*.class
+*.jar
+*.war
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Maven files
+.mvn/wrapper/maven-wrapper.jar
+
+# Version control
+.git/
+.gitignore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+data/
