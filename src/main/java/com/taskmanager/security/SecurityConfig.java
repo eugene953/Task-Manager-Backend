@@ -30,7 +30,7 @@ public class SecurityConfig {
     private final JwtAuthenticationFilter jwtAuthFilter;
     private final UserDetailsService userDetailsService;
 
-    @Value("${application.security.cors.allowed-origins:http://localhost:*,http://127.0.0.1:*,https://*.run.app,https://*.onrender.com}")
+    @Value("${application.security.cors.allowed-origins:http://localhost:*,http://127.0.0.1:*,https://*.run.app,https://*.onrender.com,https://*.vercel.app}")
     private String allowedOrigins;
 
     public SecurityConfig(JwtAuthenticationFilter jwtAuthFilter, UserDetailsService userDetailsService) {
